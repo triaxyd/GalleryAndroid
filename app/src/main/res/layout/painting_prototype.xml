@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MonaLisaActivity">
+
+    <ImageView
+        android:id="@+id/paintingImageView"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:contentDescription="@string/painting"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <EditText
+        android:id="@+id/descriptionMultilineText"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:ems="10"
+        android:focusable="false"
+        android:fontFamily="@font/halant_light"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text="@string/lorem_ipsum"
+        android:textAlignment="center"
+        android:textColor="@color/custom_white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/paintingImageView"
+        tools:ignore="RtlCompat" />
+
+    <ImageButton
+        android:id="@+id/nextPaintingButton"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_corners"
+        android:contentDescription="@string/go_next_activity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionMultilineText"
+        app:layout_constraintVertical_bias="0.75"
+        app:srcCompat="@drawable/start_40px" />
+
+    <ImageButton
+        android:id="@+id/hearingAccessibilityButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/accessibility_hearing"
+        android:contentDescription="@string/hearing_accessibility"
+        app:layout_constraintBottom_toTopOf="@+id/nextPaintingButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionMultilineText"
+        app:layout_constraintVertical_bias="0.1000000"
+        app:srcCompat="@drawable/hearing_24px" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

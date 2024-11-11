@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ModernSWE1</string>
+
+    <string name="app_welcome_text">Art Gallery</string>
+    <string name="my_name">Triantafyllos Xydis P21120</string>
+    <string name="go_next_activity">Next activity</string>
+    <string name="go_to_choice">Pick best painting!</string>
+
+    <string name="painting">Painting</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque mi nulla, molestie vulputate ex convallis sit amet.</string>
+    <string name="monalisa_description_description">The Mona Lisa bears a strong resemblance to many Renaissance depictions of the Virgin Mary, who was at that time seen as an ideal for womanhood.</string>
+    <string name="impression_sunrise_description">Impression, Sunrise depicts the port of Le Havre at sunrise, the two small rowboats in the foreground and the red Sun being the focal elements. In the middle ground, more fishing boats are included, while in the background on the left side of the painting are clipper ships with tall masts.</string>
+    <string name="liberty_leading_the_people_description">"Liberty Leading the People" depicts a woman personifying Liberty leading a group of people forward over the bodies of the fallen, holding the French tricolor flag aloft. The painting captures the moment of a revolution, where the people have taken up arms against the government, and are fighting for their freedom.</string>
+    <string name="the_swing_description">A young woman wearing a lovely pink silk frock is tantalisingly positioned mid-air on a swing between her elderly husband on the right and her young lover on the left.</string>
+    <string name="hearing_accessibility">Hearing Accessibility Button</string>
+
+
+    <string name="choice_welcome_question">Which painting is your Favourite?</string>
+    <string name="save_preference">Save</string>
+    <string name="show_preference">See your Preference</string>
+    <string name="display_preference">click button to see your painting</string>
+    <string name="no_saved_number">No saved Painting</string>
+
+</resources>
